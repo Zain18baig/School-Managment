@@ -1,0 +1,49 @@
+/* Set body background to black and text color to white 
+*/
+#root{
+background-color: white;
+}
+body {
+  background-color: black;
+  color: white;
+}
+
+/* Table styling */
+.table {
+  background-color: #ffffff; /* White background for table */
+  color: #333; /* Dark text color */
+}
+
+.table th {
+  background-color: #212529; /* Dark header for table */
+  color: #fff; /* White text color for header */
+}
+
+.table-striped tbody tr:nth-of-type(odd) {
+  background-color: #f2f2f2; /* Alternate row colors */
+}
+
+.table-striped tbody tr:hover {
+  background-color: #e2e2e2; /* Light grey on hover */
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 1px solid #ddd; /* Light border for cells */
+}
+
+/* Form styling */
+.card {
+  background-color: #343a40; /* Dark background for form */
+  color: white; /* White text in the form */
+}
+
+.card-header {
+  background-color: #212529; /* Dark header for card */
+}
+
+.form-control {
+  background-color: #444; /* Dark background for form inputs */
+  color: white; /* White text in inputs */
+  border: 1px solid #ccc; /* Light border for inputs */
+}
